@@ -1,8 +1,30 @@
 body {
     background-color: #9093c0; /* Change background color */
     font-family: Arial, sans-serif; /* Change font */
+    color: #0c343b; /* Text color */
 }
 
+img {
+    display: block; /* Make images display as block elements */
+    margin: 0 auto; /* Center-align images horizontally */
+    max-width: 100%; /* Ensure images don't exceed container width */
+    height: auto; /* Maintain aspect ratio of images */
+    
+}
+/* Header styles */
+header {
+    background-color: #8fa4b9; /* Header background color */
+    color: #8a3875; /* Header text color */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+/* Image styles */
 img {
     display: block; /* Make images display as block elements */
     margin: 0 auto; /* Center-align images horizontally */
