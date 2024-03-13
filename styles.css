@@ -1,0 +1,11 @@
+body {
+    background-color: #9093c0; /* Change background color */
+    font-family: Arial, sans-serif; /* Change font */
+}
+
+img {
+    display: block; /* Make images display as block elements */
+    margin: 0 auto; /* Center-align images horizontally */
+    max-width: 100%; /* Ensure images don't exceed container width */
+    height: auto; /* Maintain aspect ratio of images */
+}
