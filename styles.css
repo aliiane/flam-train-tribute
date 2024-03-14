@@ -2,7 +2,7 @@
 body {
     background-color: #646688; /* Change background color */
     font-family: 'Roboto', sans-serif; /* Set body text font to Roboto */
-    color: #0c343b; /* Text color */
+    color: #0a2b31; /* Text color */
     text-align: center; /* Align all text to center */
 }
 
@@ -30,5 +30,5 @@ main {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif; /* Set headings font to Montserrat */
     font-weight: bold; /* Make all headers bold */
-    font-size: 24px; /* Increase font size for all headers */
+    font-size: 32px; /* Increase font size for all headers */
 }
