@@ -2,9 +2,12 @@
 body {
     background-color: #646688; /* Change background color */
     font-family: 'Roboto', sans-serif; /* Set body text font to Roboto */
-    color: #0a2b31; /* Text color */
+    color: #310b2b; /* Text color */
     text-align: center; /* Align all text to center */
+    line-height: 1.5; /* Increase line spacing for better readability */
+    font-weight: 400; /* Set font weight to normal (400) */
 }
+
 
 /* Image styles */
 img {
