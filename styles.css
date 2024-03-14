@@ -1,27 +1,9 @@
+/* Global styles */
 body {
-    background-color: #9093c0; /* Change background color */
-    font-family: Arial, sans-serif; /* Change font */
+    background-color: #646688; /* Change background color */
+    font-family: 'Roboto', sans-serif; /* Set body text font to Roboto */
     color: #0c343b; /* Text color */
-}
-
-img {
-    display: block; /* Make images display as block elements */
-    margin: 0 auto; /* Center-align images horizontally */
-    max-width: 100%; /* Ensure images don't exceed container width */
-    height: auto; /* Maintain aspect ratio of images */
-    
-}
-/* Header styles */
-header {
-    background-color: #8fa4b9; /* Header background color */
-    color: #8a3875; /* Header text color */
-    padding: 20px;
-    text-align: center;
-}
-
-/* Main content styles */
-main {
-    padding: 20px;
+    text-align: center; /* Align all text to center */
 }
 
 /* Image styles */
@@ -30,4 +12,23 @@ img {
     margin: 0 auto; /* Center-align images horizontally */
     max-width: 100%; /* Ensure images don't exceed container width */
     height: auto; /* Maintain aspect ratio of images */
+}
+
+/* Header styles */
+header {
+    background-color: rgb(142, 163, 184); /* Header background color */
+    color: #441d3a; /* Header text color */
+    padding: 20px;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+/* Header text styles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif; /* Set headings font to Montserrat */
+    font-weight: bold; /* Make all headers bold */
+    font-size: 24px; /* Increase font size for all headers */
 }
