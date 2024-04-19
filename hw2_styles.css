@@ -1,0 +1,158 @@
+/* Add your CSS styles here */
+/* Define colors */
+:root {
+    --main-color: #645c5f;
+    --dark-color: #1C252C;
+    --article-bg-color: #B7A7AE;
+    --button-bg-color: #58545B;
+    --sidebar-bg-color: #B7A7AE;
+    --footer-bg-color: #58545B;
+    --text-color: #F6F2F6;
+}
+
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    color: var(--text-color); /* Default text color */
+}
+
+/* Header Styles */
+header {
+    background-color: var(--main-color); /* Main color for header */
+    color: var(--text-color); /* White text for contrast */
+    padding: 40px;
+    text-align: center;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: var(--dark-color); /* Dark color for navigation */
+    color: var(--text-color);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation Links Styles */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: var(--text-color); /* White text for links */
+    text-decoration: none;
+}
+
+/* Main Content Area Styles */
+main {
+    padding: 20px;
+}
+
+/* Featured Article Styles */
+.featured-article {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative; /* Ensure relative positioning for absolute children */
+}
+
+/* Article Content Styles */
+.article-content {
+    background-color: var(--article-bg-color); /* Background color for article content */
+    color: var(--text-color); /* White text for contrast */
+    padding: 20px;
+    border-radius: 5px;
+    flex: 1;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    position: relative; /* Ensure relative positioning for absolute children */
+}
+
+/* Article Image Styles */
+.article-image {
+    flex: 1;
+    max-width: 100%; /* Limit image width */
+    margin-bottom: 20px;
+    position: relative; /* Ensure relative positioning for absolute children */
+}
+
+.article-image img {
+    max-width: 100%;
+    display: block;
+    border-radius: 5px;
+}
+
+/* Advertisement Styles */
+.advertisement {
+    flex: 1;
+    max-width: 100%; /* Limit image width */
+    margin-bottom: 20px;
+    position: relative; /* Ensure relative positioning for absolute children */
+}
+
+.advertisement img {
+    max-width: 100%;
+    display: block;
+    border-radius: 5px;
+}
+
+/* Button Styles */
+.button {
+    background-color: var(--button-bg-color); /* Button background color */
+    color: var(--text-color); /* White text for contrast */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: box-shadow 0.3s, transform 0.3s;
+    position: absolute;
+    bottom: 10px; /* Adjust bottom position */
+    left: 50%; /* Adjust left position */
+    transform: translateX(-50%); /* Center horizontally */
+}
+
+/* Button Hover Effect */
+.button:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+
+/* Sidebar Styles */
+aside {
+    background-color: var(--sidebar-bg-color); /* Sidebar background color */
+    color: var(--text-color); /* White text for contrast */
+    padding: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: var(--footer-bg-color); /* Footer background color */
+    color: var(--text-color); /* White text for contrast */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Related Links Styles */
+aside ul li a {
+    color: #f0cfe4; /* Adjust color to be visible */
+    text-decoration: none;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .featured-article {
+        flex-direction: column;
+    }
+}
